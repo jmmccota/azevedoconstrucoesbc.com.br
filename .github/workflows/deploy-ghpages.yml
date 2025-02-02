@@ -37,6 +37,9 @@ jobs:
     - name: Build
       run: npm run build
 
+    - name: Create CNAME file
+      run: echo "${{ vars.URL }}" > ./dist/CNAME
+
     # - name: Upload artifact
     #   uses: actions/upload-artifact@v4
     #   with:
