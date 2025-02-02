@@ -1,0 +1,18 @@
+.contact-item {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #020266;
+    padding: 16px 48px;
+    border-radius: 16px;
+    min-width: 330px;
+    height: 60px;
+    cursor: pointer;   
+}
+.contact-item:hover {
+    background-color: #020266;
+    color: white;
+    transition: background-color 200ms, color 200ms;
+}
+.contact-item span {
+    text-decoration: none;   
+}
