@@ -4,15 +4,13 @@
     border: 2px solid #020266;
     padding: 16px 48px;
     border-radius: 16px;
-    min-width: 330px;
+    min-width: min(100%, 330px);
     height: 60px;
     cursor: pointer;   
+    text-wrap-mode: nowrap;
 }
 .contact-item:hover {
     background-color: #020266;
     color: white;
     transition: background-color 200ms, color 200ms;
-}
-.contact-item span {
-    text-decoration: none;   
 }
