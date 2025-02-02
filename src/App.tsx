@@ -35,7 +35,7 @@ function App() {
             style={{
               fontFamily: '"Times New Roman", Times, serif',
               fontWeight: "bold",
-              color: "rgb(54 62 152)",
+              color: "#363E98",
               fontSize: "32px",
             }}
           >
@@ -97,7 +97,12 @@ function App() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1465.0788972938585!2d-43.479163448966524!3d-19.942463457338917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4482d7419ebbb%3A0xf93ff8e8e865e823!2zQXpldmVkbyBDb25zdHJ1w6fDtWVz!5e0!3m2!1sen!2sbr!4v1738509180260!5m2!1sen!2sbr"
           width="600"
           height="450"
-          style={{ border: '1px solid #dadada', borderRadius: '8px', width: "min(100vw, 600px)", height: "450px" }}
+          style={{
+            border: "1px solid #dadada",
+            borderRadius: "8px",
+            width: "min(100vw, 600px)",
+            height: "450px",
+          }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
