@@ -76,6 +76,23 @@ function App() {
               style={{ width: "auto", maxHeight: "45px" }}
             />
           </a>
+          <a
+            className="contact-item"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+            href="https://instagram.com/azevedoconstrucoes87/"
+          >
+            <img
+              src="./instagram-logo.png"
+              alt="instagram"
+              width="auto"
+              height="60px"
+              style={{ width: "auto", maxHeight: "45px" }}
+            />
+          </a>
         </div>
         <div
           className="content-container"
