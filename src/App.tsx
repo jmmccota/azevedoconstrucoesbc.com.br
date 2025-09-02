@@ -25,7 +25,7 @@ function App() {
           }}
         >
           <img
-            src="./logo-escrito.png"
+            src="/img/logo-escrito.png"
             alt="Azevedo Construções"
             width="100%"
             height="auto"
@@ -69,7 +69,7 @@ function App() {
             href="https://wa.me/+553138371800"
           >
             <img
-              src="./whatsapp.svg"
+              src="/img/whatsapp.svg"
               alt="Whatsapp"
               width="auto"
               height="60px"
@@ -86,7 +86,7 @@ function App() {
             href="https://instagram.com/azevedoconstrucoes87/"
           >
             <img
-              src="./instagram-logo.png"
+              src="/img/instagram-logo.png"
               alt="instagram"
               width="auto"
               height="60px"
